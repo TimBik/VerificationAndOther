@@ -1,4 +1,6 @@
 <#ftl encoding="UTF-8"/>
+<#import "spring.ftl" as spring />
+
 <#macro head value>
     <head>
 
@@ -67,7 +69,7 @@
         <div class="container-fluid">
             <div class="row padding text-center">
                 <div class="col-12">
-                    <h2>Наши контакты</h2>
+                    <h2><@spring.message 'all.page.our.call'/></h2>
                 </div>
                 <div class="col-12 social padding">
                     <a href="#"><i class="fab fa-instagram"></i></a>
