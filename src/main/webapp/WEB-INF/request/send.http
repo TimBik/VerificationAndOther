@@ -1,0 +1,11 @@
+POST http://localhost:8080/api/register
+Content-Type: application/json
+
+{
+  "age": -10,
+  "email": "timurbikmullin@mail.ru",
+  "login": "Tim222",
+  "password": "123"
+}
+
+###
